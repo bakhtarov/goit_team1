@@ -79,3 +79,7 @@ body {
 .white_block {
 	background-color: white;
 }
+
+.show_more {
+	border-bottom: 1px solid #e5ebf1;
+}
