@@ -40,7 +40,7 @@ td {
 }
 
 .user_album img {
-	width: 100%;
+	width: 24%;
 }
 
 .user_avatar {	
@@ -163,4 +163,12 @@ td {
 }
 .black_text {
 	color: black;
+}
+
+.add_post p {
+	display: inline;
+}
+.post_icon {
+	display: inline;
+	float: right;
 }
