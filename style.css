@@ -3,15 +3,16 @@ body {
     font-weight: 400;
 }
 .module_body {
-	width: 1216px;
-	position: absolute;
-	left: 50%;
-	margin: 0 0 0 -608px;
+	width: 1300px;
+	/*position: absolute;*/
+	/*left: 50%;*/
+	/*margin: 0 0 0 -608px;*/
 }
 
 .left {
 	width: 400px;
 	float: left;
+	/*display: inline;*/
 	
 }
 .profile_actions {
@@ -39,10 +40,6 @@ body {
 
 }
 
-
-
-	/*background-color: #e5ebf1;*/
-
 #id {
 		background-color: #fff;
 		display: inline;
@@ -57,3 +54,8 @@ body {
 
 }
 
+.right {
+    float: right;
+    width: 800px;
+    /*display: inline;*/
+}
