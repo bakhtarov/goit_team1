@@ -103,6 +103,23 @@ td {
 	border-bottom: 1px solid #ececec;
 }
 
+.user_row div {
+	/*float: left;*/
+	display: inline-block;
+	padding: 0 8px;
+	text-align: center;
+	
+}
+
+.user_row {
+	padding: 0 5px;
+}
+
+.user img {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+}
 .info_header {
 	float: right;
 	color: #9a9999;
