@@ -31,9 +31,9 @@ td {
 	padding-bottom: 4px;
 	padding-right: 45px;
 }
-.top_stats {
 
-}
+
+
 .profile_actions {
 	width: 182px;
 	
@@ -88,14 +88,26 @@ td {
 
 }
 
-.profile_btn {
+.send_msg_btn {
 	width: 82.7%;
 	border-radius: 2px 0 0 2px;
+	
+}
+
+#add_friend_btn {
+	width: 80%;
+	border-radius: 2px;
+}
+
+.btn_ellipsis {
+	border-radius: 2px;
+}
+#btn_ellipsis {
+	background-color: rgb(223, 230, 237);
 }
 
 .profile_action_btn .clear_fix {
 	width: 100%;
-	/*background-color: #000;*/
 }
 
 
