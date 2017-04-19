@@ -2,3 +2,58 @@ body {
     font-size: 13px;
     font-weight: 400;
 }
+.module_body {
+	width: 1216px;
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -608px;
+}
+
+.left {
+	width: 400px;
+	float: left;
+	
+}
+.profile_actions {
+	width: 182px;
+	height: 28px;
+
+}
+
+.user_avatar {
+	width: 380px;
+}
+
+.profile_actions {
+	width: 380px;
+}
+
+.flat_button {
+	background-color: #5e81a8;
+	border: none;
+	margin: 0 0 0 -2px;
+	position: relative;
+	display: inline;
+	color: white;
+	text-decoration: none;
+
+}
+
+
+
+	/*background-color: #e5ebf1;*/
+
+#id {
+		background-color: #fff;
+		display: inline;
+		float: left;
+		
+
+}
+.user-avatar {
+	width: 380px;
+	position: relative;
+	display: inline;
+
+}
+

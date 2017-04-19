@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <title>vk</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/font-awesome-4.7.0/css/font-awesome.css">
 </head>
 <body>
     <div class="module_body">
-        <div class="user_avatar">
-
+        <div class="left">
+            <div class="user_avatar">
+                <img id='ava' src="img/ava.jpg" alt="avatar">
+            
+                <div class="profile_actions">
+                  <div class="profile_action_btn">
+                  <div class="clear_fix">
+                    <!-- <a href="/write244544385" class="button_link"> -->
+                        <button class="flat_button profile_btn">Написать сообщение</button>
+                    <!-- </a> -->
+            
+                    <a href="#" class="button_link">
+                        <button class="flat_button">
+                            <!-- <i class="profile_gift_icon"></i> -->
+                            <i id='test' class="fa fa-gift" aria-hidden="true"></i>
+                            <!-- <span class="profile_gift_text">Send gift</span> -->
+                        </button>
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="friends_table"></div>
         </div>
-        <div class="friends_table"></div>
+
         <div class="user_info"></div>
         <div class="user_photo"></div>
         <div class="add_post"></div>
