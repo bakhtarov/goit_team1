@@ -23,17 +23,20 @@
 </a>
 ```
 Паттерн для тела блоков:
+```
 <div class="module_body"></div>
-
+```
 Паттерн для блока таблички с друзьями:
+```
 <div class="people_table>
     <div class="people_row">
         <div class="people_cell">
         </div>
     </div>
 </div>
-
+```
 Паттерн для элемента таблички с друзьями:
+```
 <div class="people_cell">
   <a class="people_cell_ava" href="#">
     <img class="people_cell_img" src="source/to/avatar.img" alt="John Doe">
@@ -44,15 +47,16 @@
     </a>
   </div>
 </div>
-
+```
 Паттерн для елемента счетчика:
+```
 <a class="page_counter" href="#">
   <div class="count">3</div>
   <div class="label">Common friends</div>
 </a>
-
-
+```
 Паттерн для кнопок "Написать сообщение", "Добавить в друзья":
+```
 <div class="profile_actions">
   <div class="profile_action_btn">
   <div class="clear_fix">
@@ -67,13 +71,13 @@
     </a>
   </div>
 </div>
-
+``
 
 Basic styles:
 1. Font colors:
- - inactive font color: #828282
- - active font color: #2a588d
- - headers color: #000000
+ - inactive font color: "#828282"
+ - active font color: "#2a588d"
+ - headers color: "#000000"
 
 2. Background colors:
  - "#5e81a8"
