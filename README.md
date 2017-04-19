@@ -10,15 +10,15 @@
 
 
 Паттерн для блоков:
-<div class="counts_module"></div>
+`<div class="counts_module"></div>`
 
 Паттерн для хедеров блоков (Как, пример - "Общие друзья: 3"):
-<a href="#">
-  <h3 class="header_top">
-    <span class="header_label">Common friends</span>
-    <span class="header_count">3</span>
-  </h3>
-</a>
+`<a href="#">
+   <h3 class="header_top">
+     <span class="header_label">Common friends</span>
+     <span class="header_count">3</span>
+   </h3>
+ </a>`
 
 Паттерн для тела блоков:
 <div class="module_body"></div>
