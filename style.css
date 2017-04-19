@@ -2,7 +2,8 @@ body {
     font-size: 13px;
     background-color: 
     font-weight: 400;
-	background-color: #e5ebf1;
+	background-color: #ececec;
+	font-family: Tahoma;
 }
 
 .module_body {
@@ -34,7 +35,7 @@ body {
 	background-color: #fff;
 	border-radius: 1px;
 	padding: 10px;
-	border: solid 1px #bbb;
+	border: solid 1px #dedddd;
 	margin-bottom: 15px;
 }
 
@@ -69,7 +70,6 @@ body {
 
 
 
-
 .right {
     float: right;
     width: 70%;
@@ -80,6 +80,12 @@ body {
 	background-color: white;
 }
 
-.show_more {
-	border-bottom: 1px solid #e5ebf1;
+.border_bottom {
+	border-bottom: 1px solid #ececec;
+}
+
+.info_header {
+	float: right;
+	color: #9a9999;
+
 }
