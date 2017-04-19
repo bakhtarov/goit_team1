@@ -14,8 +14,6 @@ body {
 .left {
 	width: 28.5%;
 	float: left;
-	/*display: inline;*/
-	
 }
 .profile_actions {
 	width: 182px;
@@ -53,19 +51,32 @@ body {
 	width: 250px;
 }
 
+
+.fr {
+	float: right;
+	width: 17%;
+	border-radius:  0 2px 2px 0;
+}
 .flat_button {
-	height: 27px;
+	height: 32px;
 	background-color: #5e81a8;
 	border: none;
-	 
-	position: relative;
+	font-size: 15px;
+	margin: 5px 0;
 	display: inline;
 	color: white;
 	text-decoration: none;
 
 }
-.profile_action_btn {
 
+.profile_btn {
+	width: 82.7%;
+	border-radius: 2px 0 0 2px;
+}
+
+.profile_action_btn .clear_fix {
+	width: 100%;
+	/*background-color: #000;*/
 }
 
 
