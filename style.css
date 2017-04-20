@@ -32,11 +32,9 @@ td {
 	padding-right: 45px;
 }
 
-
-
 .profile_actions {
 	width: 182px;
-	
+
 }
 
 .user_album img {
@@ -109,8 +107,6 @@ td {
 .profile_action_btn .clear_fix {
 	width: 100%;
 }
-
-
 
 .right {
     float: right;
